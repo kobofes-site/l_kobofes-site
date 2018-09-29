@@ -14,10 +14,13 @@
   "scripts": {
     "watch": "npm-run-all --parallel watch:*",
     "watch:sass": "node-sass -w sass/main.scss css/main.css --importer node_modules/node-sass-import",
-    "watch:pug" : "pug -P -w index.pug",
+    "watch:pug": "pug -P -w index.pug",
     "watch:sync": "browser-sync start -ws --index index.html -f css/*.css",
-    "build"     : "npm-run-all --parallel build:*",
+    "build": "npm-run-all --parallel build:*",
     "build:sass": "node-sass sass/main.scss css/main.css --importer node_modules/node-sass-import --output-style compressed",
-    "build:pug" : "pug index.pug"
+    "build:pug": "pug index.pug"
+  },
+  "dependencies": {
+    "bulma": "^0.7.1"
   }
 }

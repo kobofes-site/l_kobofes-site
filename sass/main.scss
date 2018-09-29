@@ -1,3 +1,38 @@
-// This is a @import sample
-// @import '../node_modules/purecss/build/pure-min';
-// @import '../node_modules/purecss/build/grids-responsive-min';
+@import '../node_modules/bulma/css/bulma.min';
+
+html, body {
+  height: 100%;
+}
+
+.bg {
+  position: relative;
+  // background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 25%;
+
+  &#top {
+    background-image: url('../img/cover.png');
+  }
+
+  &#store {
+    background-image: url('../img/store.png');
+  }
+}
+
+.caption {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 3px;
+
+  .bg-gray {
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 10px 10px;
+    border-radius: 7px;
+  }
+}

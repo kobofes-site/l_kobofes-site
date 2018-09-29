@@ -1,8 +1,320 @@
 doctype html
-html
+html(lang='ja')
   head
-    title Simplate
-    link(rel='stylesheet', href='css/main.css')
+    link(rel='stylesheet' href='css/main.css')
+    //- web font
+    script(type='text/javascript', src='//typesquare.com/3/tsst/script/ja/typesquare.js?5b77f4bda98c4e2e87126b04ac1e02ec', charset='utf-8')
 
+  
   body
-    //- your content here
+    #top.bg
+      h1.caption.is-size-1
+        span.bg-gray 光芒祭2018
+
+    //- お知らせとTwitter
+    section.section
+      .tile.is-ancestor
+        .tile.is-vertical.is-8
+          .tile.is-parent
+            article.tile.is-child.notification
+              p.title お知らせ
+              p.subtitle 光芒祭関連のお知らせだよ!
+              .content
+                .post
+                  p.is-size-4 ページ更新
+                  p.post-content Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  p.post-date 2018.8.22
+        .tile.is-parent
+          article.tile.is-child.notification
+            .content
+              p.title Twitter
+              p
+                a.twitter-timeline.tw-align-center(data-height='300', href='https://twitter.com/kobofes2018?ref_src=twsrc%5Etfw') Tweets by kobofes2018
+              script(async src='https://platform.twitter.com/widgets.js' charset='utf-8')
+
+    #store.bg
+      h2.caption.is-size-2
+        span.bg-gray 模擬店紹介
+
+    //- 模擬店紹介
+    section.section
+      .columns
+        .column.is-one-third
+          .card
+            .card-image
+              figure.image.is-1by1
+                img.is-rounded(src='img/booth/m_booth_01.png')
+            .card-content
+              .content.has-text-centered
+                h2.title.is-size-4 ふとんがふっとんだ
+                p
+                  | Let's アメリカンドラ～ッグ<br>
+                  | 最近流行りのインスタ映え☆豆電きゅうり！<br>
+                  | ダジャレ好きが贈る、アメリカンドッグときゅうり、食べにきて♡
+                h2.is-size-6.has-text-weight-semibold 出展団体 : ふとんがふっとんだ
+                h2.is-size-6.has-text-weight-semibold 出展時間 : 10:00~
+        .column.is-one-third
+          .card
+            .card-image
+              figure.image.is-1by1
+                img.is-rounded(src='img/booth/m_booth_02.png')
+            .card-content
+              .content.has-text-centered
+                h2.title.is-size-4 Vortex
+                p 射的で豪華景品を当てよう!お酒もあるよ!
+                h2.is-size-6.has-text-weight-semibold 出展団体 : Vortex
+                h2.is-size-6.has-text-weight-semibold 出展時間 : 終日
+        .column.is-one-third
+          .card
+            .card-image
+              figure.image.is-1by1
+                img.is-rounded(src='img/booth/m_booth_03.png')
+            .card-content
+              .content.has-text-centered
+                h2.title.is-size-4 焼き鳥 SHEY☆
+                p
+                  | あたたかい焼き鳥やおでん、<br>
+                  | いろいろなお酒、<br>
+                  | ノンアルコールカクテルを用意しています！
+                h2.is-size-6.has-text-weight-semibold 出展団体 : ふとんがふっとんだ
+                h2.is-size-6.has-text-weight-semibold 出店時間 : 18日18:00~ <br> 19日終日 <br> 20日~12:00
+      .columns
+        .column.is-one-third
+          .card
+            .card-image
+              figure.image.is-1by1
+                img.is-rounded(src='img/booth/m_booth_04.png')
+            .card-content
+              .content.has-text-centered
+                h2.title.is-size-4 ふとんがふっとんだ
+                p
+                  | Let's アメリカンドラ～ッグ<br>
+                  | 最近流行りのインスタ映え☆豆電きゅうり！<br>
+                  | ダジャレ好きが贈る、アメリカンドッグときゅうり、食べにきて♡
+                h2.is-size-6.has-text-weight-semibold 出展団体 : ふとんがふっとんだ
+                h2.is-size-6.has-text-weight-semibold 出展時間 : 10:00~
+        .column.is-one-third
+          .card
+            .card-image
+              figure.image.is-1by1
+                img.is-rounded(src='img/booth/m_booth_05.png')
+            .card-content
+              .content.has-text-centered
+                h2.title.is-size-4 Vortex
+                p 射的で豪華景品を当てよう!お酒もあるよ!
+                h2.is-size-6.has-text-weight-semibold 出展団体 : Vortex
+                h2.is-size-6.has-text-weight-semibold 出展時間 : 終日
+        .column.is-one-third
+          .card
+            .card-image
+              figure.image.is-1by1
+                img.is-rounded(src='img/booth/m_booth_06.png')
+            .card-content
+              .content.has-text-centered
+                h2.title.is-size-4 焼き鳥 SHEY☆
+                p
+                  | あたたかい焼き鳥やおでん、<br>
+                  | いろいろなお酒、<br>
+                  | ノンアルコールカクテルを用意しています！
+                h2.is-size-6.has-text-weight-semibold 出展団体 : ふとんがふっとんだ
+                h2.is-size-6.has-text-weight-semibold 出店時間 : 18日18:00~ <br> 19日終日 <br> 20日~12:00
+      .columns
+        .column.is-one-third
+          .card
+            .card-image
+              figure.image.is-1by1
+                img.is-rounded(src='img/booth/m_booth_07.png')
+            .card-content
+              .content.has-text-centered
+                h2.title.is-size-4 ふとんがふっとんだ
+                p
+                  | Let's アメリカンドラ～ッグ<br>
+                  | 最近流行りのインスタ映え☆豆電きゅうり！<br>
+                  | ダジャレ好きが贈る、アメリカンドッグときゅうり、食べにきて♡
+                h2.is-size-6.has-text-weight-semibold 出展団体 : ふとんがふっとんだ
+                h2.is-size-6.has-text-weight-semibold 出展時間 : 10:00~
+        .column.is-one-third
+          .card
+            .card-image
+              figure.image.is-1by1
+                img.is-rounded(src='img/booth/m_booth_08.png')
+            .card-content
+              .content.has-text-centered
+                h2.title.is-size-4 Vortex
+                p 射的で豪華景品を当てよう!お酒もあるよ!
+                h2.is-size-6.has-text-weight-semibold 出展団体 : Vortex
+                h2.is-size-6.has-text-weight-semibold 出展時間 : 終日
+        .column.is-one-third
+          .card
+            .card-image
+              figure.image.is-1by1
+                img.is-rounded(src='img/booth/m_booth_09.png')
+            .card-content
+              .content.has-text-centered
+                h2.title.is-size-4 焼き鳥 SHEY☆
+                p
+                  | あたたかい焼き鳥やおでん、<br>
+                  | いろいろなお酒、<br>
+                  | ノンアルコールカクテルを用意しています！
+                h2.is-size-6.has-text-weight-semibold 出展団体 : ふとんがふっとんだ
+                h2.is-size-6.has-text-weight-semibold 出店時間 : 18日18:00~ <br> 19日終日 <br> 20日~12:00
+      .columns
+        .column.is-one-third
+          .card
+            .card-image
+              figure.image.is-1by1
+                img.is-rounded(src='img/booth/m_booth_10.png')
+            .card-content
+              .content.has-text-centered
+                h2.title.is-size-4 ふとんがふっとんだ
+                p
+                  | Let's アメリカンドラ～ッグ<br>
+                  | 最近流行りのインスタ映え☆豆電きゅうり！<br>
+                  | ダジャレ好きが贈る、アメリカンドッグときゅうり、食べにきて♡
+                h2.is-size-6.has-text-weight-semibold 出展団体 : ふとんがふっとんだ
+                h2.is-size-6.has-text-weight-semibold 出展時間 : 10:00~
+        .column.is-one-third
+          .card
+            .card-image
+              figure.image.is-1by1
+                img.is-rounded(src='img/booth/m_booth_11.png')
+            .card-content
+              .content.has-text-centered
+                h2.title.is-size-4 Vortex
+                p 射的で豪華景品を当てよう!お酒もあるよ!
+                h2.is-size-6.has-text-weight-semibold 出展団体 : Vortex
+                h2.is-size-6.has-text-weight-semibold 出展時間 : 終日
+        .column.is-one-third
+          .card
+            .card-image
+              figure.image.is-1by1
+                img.is-rounded(src='img/booth/m_booth_12.png')
+            .card-content
+              .content.has-text-centered
+                h2.title.is-size-4 焼き鳥 SHEY☆
+                p
+                  | あたたかい焼き鳥やおでん、<br>
+                  | いろいろなお酒、<br>
+                  | ノンアルコールカクテルを用意しています！
+                h2.is-size-6.has-text-weight-semibold 出展団体 : ふとんがふっとんだ
+                h2.is-size-6.has-text-weight-semibold 出店時間 : 18日18:00~ <br> 19日終日 <br> 20日~12:00
+      .columns
+        .column.is-one-third
+          .card
+            .card-image
+              figure.image.is-1by1
+                img.is-rounded(src='img/booth/m_booth_13.png')
+            .card-content
+              .content.has-text-centered
+                h2.title.is-size-4 ふとんがふっとんだ
+                p
+                  | Let's アメリカンドラ～ッグ<br>
+                  | 最近流行りのインスタ映え☆豆電きゅうり！<br>
+                  | ダジャレ好きが贈る、アメリカンドッグときゅうり、食べにきて♡
+                h2.is-size-6.has-text-weight-semibold 出展団体 : ふとんがふっとんだ
+                h2.is-size-6.has-text-weight-semibold 出展時間 : 10:00~
+        .column.is-one-third
+          .card
+            .card-image
+              figure.image.is-1by1
+                img.is-rounded(src='img/booth/m_booth_14.png')
+            .card-content
+              .content.has-text-centered
+                h2.title.is-size-4 Vortex
+                p 射的で豪華景品を当てよう!お酒もあるよ!
+                h2.is-size-6.has-text-weight-semibold 出展団体 : Vortex
+                h2.is-size-6.has-text-weight-semibold 出展時間 : 終日
+        .column.is-one-third
+          .card
+            .card-image
+              figure.image.is-1by1
+                img.is-rounded(src='img/booth/m_booth_15.png')
+            .card-content
+              .content.has-text-centered
+                h2.title.is-size-4 焼き鳥 SHEY☆
+                p
+                  | あたたかい焼き鳥やおでん、<br>
+                  | いろいろなお酒、<br>
+                  | ノンアルコールカクテルを用意しています！
+                h2.is-size-6.has-text-weight-semibold 出展団体 : ふとんがふっとんだ
+                h2.is-size-6.has-text-weight-semibold 出店時間 : 18日18:00~ <br> 19日終日 <br> 20日~12:00
+      .columns
+        .column.is-one-third
+          .card
+            .card-image
+              figure.image.is-1by1
+                img.is-rounded(src='img/booth/m_booth_16.png')
+            .card-content
+              .content.has-text-centered
+                h2.title.is-size-4 ふとんがふっとんだ
+                p
+                  | Let's アメリカンドラ～ッグ<br>
+                  | 最近流行りのインスタ映え☆豆電きゅうり！<br>
+                  | ダジャレ好きが贈る、アメリカンドッグときゅうり、食べにきて♡
+                h2.is-size-6.has-text-weight-semibold 出展団体 : ふとんがふっとんだ
+                h2.is-size-6.has-text-weight-semibold 出展時間 : 10:00~
+        .column.is-one-third
+          .card
+            .card-image
+              figure.image.is-1by1
+                img.is-rounded(src='img/booth/m_booth_17.png')
+            .card-content
+              .content.has-text-centered
+                h2.title.is-size-4 Vortex
+                p 射的で豪華景品を当てよう!お酒もあるよ!
+                h2.is-size-6.has-text-weight-semibold 出展団体 : Vortex
+                h2.is-size-6.has-text-weight-semibold 出展時間 : 終日
+        .column.is-one-third
+          .card
+            .card-image
+              figure.image.is-1by1
+                img.is-rounded(src='img/booth/m_booth_18.png')
+            .card-content
+              .content.has-text-centered
+                h2.title.is-size-4 焼き鳥 SHEY☆
+                p
+                  | あたたかい焼き鳥やおでん、<br>
+                  | いろいろなお酒、<br>
+                  | ノンアルコールカクテルを用意しています！
+                h2.is-size-6.has-text-weight-semibold 出展団体 : ふとんがふっとんだ
+                h2.is-size-6.has-text-weight-semibold 出店時間 : 18日18:00~ <br> 19日終日 <br> 20日~12:00
+      .columns
+        .column.is-one-third
+          .card
+            .card-image
+              figure.image.is-1by1
+                img.is-rounded(src='img/booth/m_booth_19.png')
+            .card-content
+              .content.has-text-centered
+                h2.title.is-size-4 ふとんがふっとんだ
+                p
+                  | Let's アメリカンドラ～ッグ<br>
+                  | 最近流行りのインスタ映え☆豆電きゅうり！<br>
+                  | ダジャレ好きが贈る、アメリカンドッグときゅうり、食べにきて♡
+                h2.is-size-6.has-text-weight-semibold 出展団体 : ふとんがふっとんだ
+                h2.is-size-6.has-text-weight-semibold 出展時間 : 10:00~
+        .column.is-one-third
+          .card
+            .card-image
+              figure.image.is-1by1
+                img.is-rounded(src='img/booth/m_booth_20.png')
+            .card-content
+              .content.has-text-centered
+                h2.title.is-size-4 Vortex
+                p 射的で豪華景品を当てよう!お酒もあるよ!
+                h2.is-size-6.has-text-weight-semibold 出展団体 : Vortex
+                h2.is-size-6.has-text-weight-semibold 出展時間 : 終日
+        .column.is-one-third
+          .card
+            .card-image
+              figure.image.is-1by1
+                img.is-rounded(src='img/booth/m_booth_21.png')
+            .card-content
+              .content.has-text-centered
+                h2.title.is-size-4 焼き鳥 SHEY☆
+                p
+                  | あたたかい焼き鳥やおでん、<br>
+                  | いろいろなお酒、<br>
+                  | ノンアルコールカクテルを用意しています！
+                h2.is-size-6.has-text-weight-semibold 出展団体 : ふとんがふっとんだ
+                h2.is-size-6.has-text-weight-semibold 出店時間 : 18日18:00~ <br> 19日終日 <br> 20日~12:00
