@@ -1,7 +1,4 @@
-# Simplate
-
-Create static webpage simply.
-Change `index.pug` and `main.scss` to make own page...
+# Kobofes-site landing page ver.
 
 ## Prerequisites
 
@@ -16,7 +13,8 @@ $ yarn
 $ yarn watch # watching file: index.pug, main.scss and serve on localhost
 ```
 
-## Todo
+## Build
 
-- Support JavaScript
-- Import style/js from node_modules
+```
+$ yarn build
+```
