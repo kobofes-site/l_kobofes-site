@@ -10,14 +10,27 @@ html, body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 25%;
+  min-height: 30%;
 
   &#top {
+    min-height: 100%;
     background-image: url('../img/cover.png');
   }
 
   &#store {
     background-image: url('../img/store.png');
+  }
+
+  &#event {
+    background-image: url('../img/event.png');
+  }
+
+  &#stage {
+    background-image: url('../img/stage.png');
+  }
+
+  &#maps {
+    background-color: hsl(180, 100%, 93%);
   }
 }
 
@@ -26,7 +39,7 @@ html, body {
   width: 100%;
   top: 50%;
   text-align: center;
-  color: white;
+  color: PaleGreen;
   font-weight: bold;
   letter-spacing: 3px;
 
