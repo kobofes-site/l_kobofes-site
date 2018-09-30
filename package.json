@@ -21,6 +21,7 @@
     "build:pug": "pug index.pug"
   },
   "dependencies": {
-    "bulma": "^0.7.1"
+    "bulma": "^0.7.1",
+    "luminous-lightbox": "^2.2.2"
   }
 }
