@@ -14,11 +14,6 @@ html, body {
   background-size: cover;
   min-height: 40%;
 
-  &#top {
-    min-height: 100%;
-    background-image: url('../img/cover.png');
-  }
-
   &#store {
     background-image: url('../img/store.png');
   }
@@ -86,4 +81,19 @@ html, body {
 
 .schoolmap1, .schoolmap2 {
   cursor: zoom-in;
+}
+
+// change top image depend accessing devise
+@media only screen and (min-device-width: 649px) {
+  #top {
+    min-height: 100%;
+    background-image: url('../img/cover.png');
+  }
+}
+
+@media only screen and (max-device-width: 648px) {
+  #top {
+    min-height: 100%;
+    background-image: url('../img/cover.png');
+  }
 }
