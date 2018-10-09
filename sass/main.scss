@@ -86,7 +86,7 @@ html, body {
 // change top image depend accessing devise
 @media only screen and (min-device-width: 649px) {
   #top {
-    min-height: 100%;
+    min-height: 50%;
     background-image: url('../img/cover.png');
   }
 }
@@ -94,6 +94,6 @@ html, body {
 @media only screen and (max-device-width: 648px) {
   #top {
     min-height: 100%;
-    background-image: url('../img/cover.png');
+    background-image: url('../img/cover_mobile.png');
   }
 }
