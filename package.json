@@ -22,7 +22,6 @@
   },
   "dependencies": {
     "bulma": "^0.7.1",
-    "flexslider": "^2.7.1",
     "luminous-lightbox": "^2.2.2",
     "scrollie": "^0.2.0"
   }
