@@ -15,10 +15,12 @@ html, body {
   min-height: 40%;
 
   &#store {
+    background-position: bottom;
     background-image: url('../img/store.png');
   }
 
   &#event {
+    background-position: bottom;
     background-image: url('../img/event.png');
   }
 
@@ -27,7 +29,7 @@ html, body {
   }
 
   &#maps {
-    background-color: hsl(180, 100%, 93%);
+    background-image: url('../img/access.png');
   }
 }
 
