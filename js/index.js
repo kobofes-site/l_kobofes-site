@@ -4,7 +4,7 @@ new Luminous(document.querySelector('.schoolmap1'));
 new Luminous(document.querySelector('.schoolmap2'));
 
 $(window).ready(function() {
-  $('.section')
+  $('.section, .bg')
     .scrollie({
       direction: 'up',
       scrollingToTheTop: function(elem) {
