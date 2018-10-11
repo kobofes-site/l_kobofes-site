@@ -20,6 +20,6 @@ $(window).ready(function() {
     .css('opacity', 0)
     .animate(
       { opacity: 1 },
-      { queue: false, duration: 'slow' }
+      { queue: false, duration: 3000 }
     );
 });
