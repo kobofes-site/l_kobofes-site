@@ -13,40 +13,28 @@ html, body {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 40%;
-
-  &#store {
-    background-position: bottom;
-    background-image: url('../img/store.png');
-  }
-
-  &#event {
-    background-position: bottom;
-    background-image: url('../img/event.png');
-  }
-
-  &#stage {
-    background-image: url('../img/stage.png');
-  }
-
-  &#maps {
-    background-image: url('../img/access.png');
-  }
 }
 
-.caption {
-  position: absolute;
-  width: 100%;
-  top: 50%;
-  text-align: center;
-  color: PaleGreen;
-  font-weight: bold;
-  letter-spacing: 3px;
+#store {
+  background-position: bottom;
+  background-image: url('../img/store.png');
+}
 
-  .bg-gray {
-    background-color: rgba(0, 0, 0, 0.25);
-    padding: 10px 10px;
-    border-radius: 7px;
-  }
+#event {
+  background-position: bottom;
+  background-image: url('../img/event.png');
+}
+
+#stage {
+  background-image: url('../img/stage.png');
+}
+
+#maps {
+  background-image: url('../img/access.png');
+}
+
+.section {
+  opacity: 0;
 }
 
 #twitter {
@@ -92,7 +80,7 @@ img.is-rounded {
 // change top image depend accessing devise
 @media only screen and (min-device-width: 649px) {
   #top {
-    min-height: 50%;
+    min-height: 100%;
     background-image: url('../img/cover.png');
   }
 }
