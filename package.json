@@ -1,6 +1,6 @@
 {
-  "name": "simplate",
-  "description": "Create static webpage simply.",
+  "name": "Kobofes-site",
+  "description": "About fes site of shinshu university",
   "version": "1.0.0",
   "license": "MIT",
   "devDependencies": {
@@ -22,6 +22,8 @@
   },
   "dependencies": {
     "bulma": "^0.7.1",
-    "luminous-lightbox": "^2.2.2"
+    "flexslider": "^2.7.1",
+    "luminous-lightbox": "^2.2.2",
+    "scrollie": "^0.2.0"
   }
 }
